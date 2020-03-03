@@ -1,0 +1,108 @@
+style.css
+
+
+
+body{
+    background-color: lightcyan; 
+}
+
+.navbar{
+    max-height: 50px; 
+	background-color: lightseagreen; 
+    font-size: 15px; 
+}
+
+.navigation .navbar-brand{
+	color: cornsilk; 
+	margin-left: 50px; 
+	padding: inherit; 
+	font-weight: bold; 
+	background-color: #20b2aa;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.dropdown-item{
+    color: darkslategray; 
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:paleturquoise; 
+}
+
+.nav-link:hover{
+    background-color:paleturquoise;
+}
+
+
+/* Media Queries */
+@media (max-width: 991.98px){
+.navbar-expand-lg{
+	background-color: darkslateblue;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: lightsteelblue;  
+}
+.navbar-brand{
+    padding: 10px; 
+}
+
+button{
+    margin-left: auto; 
+}
+
+button:focus {
+    outline: 1px dotted;
+}
+}
+
+.description-content {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 10px 30px 5px;
+	color: black;
+	background-color: white;
+}
+
+.imageNav-content {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+}
+.description-header, .imageNav-header {
+	padding-top: 15px; 
+	padding-left: 4px;
+	color: cadetblue;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.description-image {
+	float: left;
+	width: 60%;
+	height: 60%;
+}
+
+p{
+	color: darkolivegreen;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.active, .imageNav-photo:hover{
+    border-color: dodgerblue;
+    border-style: solid; 
+}
